@@ -4,12 +4,13 @@ int main(){
 
     int dia, mes, ano;
 
-//Solicita as informaÃ§Ãµes do usuario
+//Solicita as informações do usuario
 
     printf("Digite o dia:\n");
     scanf("%d", &dia);
     if(dia < 0 || dia > 31){
         printf("Opcao invalida\n");
+        return 0;
     }
     printf("Digite o mes:\n");
     scanf("%d", &mes);
@@ -19,13 +20,10 @@ int main(){
     printf("Digite o ano:\n");
     scanf("%d", &ano);
 
-    int ano;
-    int resto;
-
-    ano= ("%d", &ano);
-    resto =ano / 4;
-
-    if(resto == 0, mes = 2, dia =29){
+    if(ano % 4 == 0){
+        printf("e bissexto");
+    }else if(ano % 4 != 0){
+        printf("nao e bissexto");
     }
 
 
