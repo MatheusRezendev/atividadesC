@@ -4,7 +4,7 @@ int main(){
 
     int dia, mes, ano;
 
-//Solicita as informações do usuario
+//Solicita as informaÃ§Ãµes do usuario
 
     printf("Digite o dia:\n");
     scanf("%d", &dia);
@@ -25,9 +25,4 @@ int main(){
     }else if(ano % 4 != 0){
         printf("nao e bissexto");
     }
-
-
-
-
-
 }
