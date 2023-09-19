@@ -1,0 +1,54 @@
+
+#include<stdio.h>
+
+int main(){
+    int posicao;
+
+    printf("Digite a posição desejada na sequencia de fibonacci\n");
+    scanf("%d", &posicao);
+
+    float a = 0, b = 1, res_fibonacci;
+    if (posicao == 0){
+        resultado = a
+    }
+    }
+
+}
+/*
+
+#include <stdio.h>
+
+int fibonacci(int n) {
+    if (n <= 1)
+        return n;
+    else
+        return fibonacci(n - 1) + fibonacci(n - 2);
+}
+
+int main() {
+    int posicao;
+
+    printf("Digite a posição desejada na sequência de Fibonacci: ");
+    scanf("%d", &posicao);
+
+    if (posicao < 0) {
+        printf("A posição deve ser um número não negativo.\n");
+    } else {
+        int resultado = fibonacci(posicao);
+        printf("O número na posição %d da sequência de Fibonacci é: %d\n", posicao, resultado);
+    }
+
+    return 0;
+}
+
+
+
+
+/*
+Calcular qual é a posição do resultado na sequencia de fibonacci
+5
+10
+100
+1000
+10000
+*/
